@@ -1,6 +1,6 @@
 'use strict';
 
-function binary(number) {
+var binary = function (number) {
   var num = parseInt(number, 10);
   if (num === 0 || num === 1) {
     return number.toString();
@@ -12,5 +12,6 @@ function binary(number) {
   return e.toString() + b.toString();
 }
 
-console.log(binary(37)); 
+module.exports.binary = binary;
+
 
