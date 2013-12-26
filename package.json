@@ -1,0 +1,43 @@
+{
+  "name": "higher-order-js",
+  "version": "0.0.1",
+  "description": "Examples from Higher Order Perl rewritten in JavaScript",
+  "main": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/n3m6/higher-order-js.git"
+  },
+  "keywords": [
+    "higher-order",
+    "javascript",
+    "code",
+    "examples"
+  ],
+  "author": "Abdulla Faraz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/n3m6/higher-order-js/issues"
+  },
+  "homepage": "https://github.com/n3m6/higher-order-js",
+  "devDependencies": {
+    "mocha": "",
+    "chai": "",
+    "grunt": "",
+    "grunt-mocha-test": "",
+    "grunt-contrib-jshint": "",
+    "grunt-contrib-watch": ""
+  },
+  "dependencies": {
+    "chai": "",
+    "grunt": "",
+    "grunt-contrib-jshint": "",
+    "grunt-contrib-watch": "",
+    "grunt-mocha-test": ""
+  }
+}
