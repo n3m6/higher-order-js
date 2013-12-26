@@ -3,7 +3,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
 
     jshint: {
-      files: ['1-recursion/**/*.js'],
+      files: ['src/**/*.js', 'test/**/*.js'],
       options: {
         node:     true,
         bitwise:  true,
@@ -57,8 +57,8 @@ module.exports = function(grunt) {
 
     watch: {
       all: {
-        files: ['test/**/*.js', '1-recursion/**/*.js'],
-        tasks: ['jshint']
+        files: ['test/**/*.js', 'src/**/*.js'],
+        tasks: ['mochaTest']
       }
     }
 
