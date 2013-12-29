@@ -10,8 +10,13 @@ var binary = function (number) {
   var b = num % 2;
   var e = binary(k);
   return e.toString() + b.toString();
-}
+};
 
-module.exports.binary = binary;
+var factorial = function (number) {
+  return number === 0 ? 1 : factorial(number - 1) * number;
+};
 
+
+module.exports.binary     = binary;
+module.exports.factorial  = factorial;
 
